@@ -4,4 +4,4 @@ build:
 
 test: build
 	@echo "Running tests..."
-	./build/test_exec
+	./build/test_exec 
