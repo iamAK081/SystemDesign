@@ -2,9 +2,9 @@ name: C++ CI with Make
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "AK-SystemDesing" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "AK-SystemDesing" ]
 
 jobs:
   build-and-test:
