@@ -1,0 +1,10 @@
+^C:\ARUL\WORKING\SYSTEMDESIGN\BUILD\CMAKEFILES\D27C634940F4311AABCB3DA211EC92C2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Arul/working/SystemDesign -BC:/Arul/working/SystemDesign/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Arul/working/SystemDesign/build/SystemDesign.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

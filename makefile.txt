@@ -1,0 +1,7 @@
+build:
+	@echo "Building project..."
+	g++ -std=c++17 -I./src -I./Test ./Test/ObserverPattern_test.cpp ./Test/ObserverPattern.cpp -o build/test_exec
+
+test: build
+	@echo "Running tests..."
+	./build/test_exec
